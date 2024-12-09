@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" id="toggel" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Connect and share your online profiles seamlessly with social-links. Discover, organize, and share your social links in one place."
+    />
+    <meta
+      name="keywords"
+      content="social links, profile sharing, online connections, social media, bio links"
+    />
+    <meta id="title" name="author" content="social links" />
+    <meta name="robots" content="index, follow" />
+    <meta
+      property="og:title"
+      content="Organize Your Social Links with social-links"
+    />
+    <meta
+      property="og:description"
+      content="Simplify your online presence by sharing all your social links in one place."
+    />
+    <meta property="og:url" content="" />
+    <meta id="metaimg" property="og:image" content="" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Organize Your Social Links with
+    social-links>
+    <meta
+      name="twitter:description"
+      content="Simplify your online presence by sharing all your social links in one place."
+    />
+    <meta id="metaimg" name="twitter:image" content="" />
+    <meta name="twitter:site" content="@YourTwitterHandle" />
+    <title id="title"> </title>
+    <link rel="stylesheet" href="src/styles/main.css" />
+    <link rel="stylesheet" href="src/styles/btn.css" />
+    <link
+      class="rounded-full"
+      rel="icon"
+      type="image/x-icon"
+      id="logo"
+      href=""
+    />
+  </head>
+  <body class="bg-slate-50 dark:bg-gray-950 dark:text-white">
+    <main id="main" class="p-16 w-full h-screen grid justify-center">
+      <div class="flex-col justify-center text-center">
+        <img
+          id="img"
+          class="w-32 mx-auto h-fit border-2 border-solid border-black max-[425px]:bottom-20 relative top-[2rem] rounded-full"
+          src=""
+          alt=""
+        />
+        <div role="radiogroup" class="theme-switcher">
+          <button
+            id="light"
+            type="button"
+            role="radio"
+            data-theme-switcher="true"
+            data-active="false"
+            class="theme-switcher_switch"
+            aria-label="Switch to light theme"
+            aria-checked="false"
+          >
+            <svg
+              style="color: currentcolor; width: 16px; height: 16px"
+              width="24"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke-linejoin="round"
+              stroke-linecap="round"
+              stroke="currentColor"
+              shape-rendering="geometricPrecision"
+              height="24"
+              fill="none"
+              data-testid="geist-icon"
+              class="icon"
+            >
+              <circle r="5" cy="12" cx="12"></circle>
+              <path d="M12 1v2"></path>
+              <path d="M12 21v2"></path>
+              <path d="M4.22 4.22l1.42 1.42"></path>
+              <path d="M18.36 18.36l1.42 1.42"></path>
+              <path d="M1 12h2"></path>
+              <path d="M21 12h2"></path>
+              <path d="M4.22 19.78l1.42-1.42"></path>
+              <path d="M18.36 5.64l1.42-1.42"></path>
+            </svg>
+          </button>
+          <button
+            id="pctheme"
+            type="button"
+            role="radio"
+            data-theme-switcher="true"
+            data-active="false"
+            class="theme-switcher_switch"
+            aria-label="Switch to system theme"
+            aria-checked="false"
+          >
+            <svg
+              style="color: currentcolor; width: 16px; height: 16px"
+              width="24"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke-linejoin="round"
+              stroke-linecap="round"
+              stroke="currentColor"
+              shape-rendering="geometricPrecision"
+              height="24"
+              fill="none"
+              data-testid="geist-icon"
+              class="icon"
+            >
+              <rect ry="2" rx="2" height="14" width="20" y="3" x="2"></rect>
+              <path d="M8 21h8"></path>
+              <path d="M12 17v4"></path>
+            </svg>
+          </button>
+          <button
+            id="dark"
+            type="button"
+            role="radio"
+            data-theme-switcher="true"
+            data-active="true"
+            class="theme-switcher_switch"
+            aria-label="Switch to dark theme"
+            aria-checked="true"
+          >
+            <svg
+              style="color: currentcolor; width: 16px; height: 16px"
+              width="24"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke-linejoin="round"
+              stroke-linecap="round"
+              stroke="currentColor"
+              shape-rendering="geometricPrecision"
+              height="24"
+              fill="none"
+              data-testid="geist-icon"
+              class="icon"
+            >
+              <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+            </svg>
+          </button>
+        </div>
+
+        <h1 id="name" class="font-bold opacity-85 mt-0 text-4xl"></h1>
+        <h2 id="job" class="text-xl opacity-75"></h2>
+      </div>
+      <div
+        class="flex flex-col gap-3 mt-10 max-[425px]:mt-[-120px] font-bold text-center"
+      >
+        <button
+          class="w-[400px] dark:text-black dark:bg-opacity-90 border-solid border-2 border-black h-20 text-center items-center px-10 py-3 flex text-2xl dark:bg-white rounded-full hover:translate-y-[-3px]"
+        >
+          <img
+            id="instaicons"
+            class="w-16 mr-4 border-solid border-2 border-black rounded-full"
+            src=""
+            alt=""
+          />
+          Instagram
+        </button>
+        <button
+          class="w-[400px] h-20 dark:text-black dark:bg-opacity-90 border-solid border-2 border-black text-center items-center px-10 py-3 flex text-2xl dark:bg-white rounded-full hover:translate-y-[-3px]"
+        >
+          <img
+            id="githubicons"
+            class="w-16 mr-4 border-solid border-2 border-black rounded-full"
+            src=""
+            alt=""
+          />
+          Github
+        </button>
+        <h3 class="text-3xl">Shop</h3>
+        <button
+          class="w-[400px] h-20 dark:text-black dark:bg-opacity-90 border-solid border-2 border-black text-center items-center px-10 py-3 flex text-2xl dark:bg-white rounded-full hover:translate-y-[-3px]"
+        >
+          Shop Now
+        </button>
+      </div>
+    </main>
+
+    <script type="module" src="src/scripts/index"></script>
+  </body>
+</html>
